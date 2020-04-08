@@ -102,7 +102,7 @@ Add `.list-group-horizontal` to change the layout of list group items from verti
 
 {{< example >}}
 {{< list-group.inline >}}
-{{- range $.Site.Data.breakpoints }}
+{{- range $.Site.Data.breakpoints -}}
 <ul class="list-group list-group-horizontal{{ .abbr }}">
   <li class="list-group-item">Cras justo odio</li>
   <li class="list-group-item">Dapibus ac facilisis in</li>
